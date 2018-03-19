@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hide & Seek </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body {
+background-color: white;
+background-image: url("https://cdn.pixabay.com/photo/2017/06/19/20/16/background-2420782_960_720.png");
+margin:0;
+padding:0;
+height:100%;
+width:100%;
+
+}
+
+.form-group{
+
+margin-top: 30%;
+margin-left: 21%;
+width:70%;
+
+}
+
+.form-inline{
+padding: 1%;
+padding-left: 50%;
+
+}
+
+.dropdown{
+
+margin-left:50%;
+color:white;
+hover: red;
+display:inline-block;
+}
+
+
+.btn{
+
+background:transparent;
+}
+
+
+.text{
+
+
+font-color:white;
+color:white;
+font-family:serif;
+padding-left: 40%;
+}
+
+
+.image{
+align:center;
+margin-top:10%;
+
+margin-left:40%;
+margin-bottom:-25%;
+
+}
+
+
+
+
+</style>
+
+
+
+</head>
+
+
+
+<body>
+
+
+<div class="dropdown">
+<button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
+<img src="http://www.johnschnell.net/img/icons/site-navigation/mobile-menu.png" width="30" height="30" style="padding:1%;"> <span class="caret">
+ </button>
+
+ <ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dropdownMenu1">
+<li role="presentation"> <a role="menuitem" tabindex="-1" href="#"><i class="fa fa-facebook">Setting</i></a> </li>
+ <li role="presentation"> <a role="menuitem" tabindex="-1" href="#"><i class="fa fa-facebook">Data Mining</i></a> </li>
+ <li role="presentation"> <a role="menuitem" tabindex="-1" href="#"><i class="fa fa-facebook"> Data Communication/Networking <i/></a> </li>
+<li role="presentation" class="divider"></li>
+<li role="presentation">
+<a role="menuitem" tabindex="-1" href="#">Separated link</a> </li> </ul> </div></div>
+
+
+<div class="container">
+<div class="image"><img src="images/hide3.png" align="center"></div>
+<div class="form-group">
+<input type="text" class="form-control" placeholder="FIND IT ON HIDE & SEEK">
+  </div>
+  <form class="form-inline">
+<button type="submit" class="btn btn-default">Search</button>
+ <button type="submit" class="btn btn-default">Africa Search</button></div>
+<div class="text"><h3>Search Engine Designed For Africa</h3></div>
+
+
+
+</body>
+</html>
